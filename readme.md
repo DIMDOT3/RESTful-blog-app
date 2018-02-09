@@ -1,10 +1,6 @@
 # Project Title
 A full stack CRUD final project using Node.js, Express, and MongoDB.  This project was part of a course [The Web Developer Bootcamp](https://www.udemy.com/the-web-developer-bootcamp/) by Colt Steele on [udemy.com](https://www.udemy.com)
 
-## Demo App
-
-See a demo of the app [here](https://safe-eyrie-62381.herokuapp.com)
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.

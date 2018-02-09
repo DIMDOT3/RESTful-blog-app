@@ -7,14 +7,16 @@ var express = require('express'),
     // method-override package used to specify PUT/DELETE in html forms
     methodOverride = require('method-override'),
     // sanitizer to remove any potential script tags when rendering html in blog body posts
-    expressSanitizer = require('express-sanitizer');
+    expressSanitizer = require('express-sanitizer'),
+    dbUrl = process.env.DATABASEURL || 'mongodb://localhost/restful_blog_app';
 
 // ==================================
 // APP CONFIG
 // ==================================
 
 // configure mongoose to connect to DB
-mongoose.connect('mongodb://localhost/restful_blog_app');
+
+mongoose.connect(dbUrl);
 
 app.set('view engine', 'ejs');
 
